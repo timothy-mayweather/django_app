@@ -3,6 +3,7 @@ This is a template web app for django inertia apps using react
 </h3>
 
 ````
+** Note: use pip or pip3, python or python3
 clone this repository
 remove .git directory
 rename django_app to your desired app name (this includes all directory names and text in files named so)
