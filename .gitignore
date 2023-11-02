@@ -1,0 +1,7 @@
+.idea
+node_modules
+venv
+npm-debug.log
+yarn-error.log
+.fleet
+.vscode

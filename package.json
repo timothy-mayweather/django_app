@@ -1,0 +1,19 @@
+{
+  "name": "django_app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@inertiajs/inertia": "^0.11.1",
+    "@inertiajs/inertia-react": "^0.8.1",
+    "@inertiajs/progress": "^0.2.7",
+    "@vitejs/plugin-react": "^4.1.0",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.5.0"
+  }
+}
