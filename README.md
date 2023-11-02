@@ -9,6 +9,9 @@ rename django_app to your desired app name (this includes all directory names an
 rename Django_app to your desired app name in settings.py and main.jsx
 run below for development phase
 --initially
+$ python -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
 $ npm install
 $ pip install
 ---during
