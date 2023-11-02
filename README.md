@@ -7,6 +7,13 @@ clone this repository
 remove .git directory
 rename django_app to your desired app name (this includes all directory names and text in files named so)
 rename Django_app to your desired app name in settings.py and main.jsx
+run below for development phase
+--initially
+$ npm install
+$ pip install
+---during
+$ python manage.py runserver
+$ npm run dev
 after coding your application, run 
 $ npm run build
 $ python manage.py collectstatic
