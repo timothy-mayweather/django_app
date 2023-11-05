@@ -24,7 +24,6 @@ $ python manage.py runserver
 $ npm run dev
 after coding your application, run 
 $ npm run build
-$ python manage.py collectstatic
 change DJANGO_VITE_DEV_MODE = DEBUG to DJANGO_VITE_DEV_MODE = False in settings.py
 Finally, Deploy to your python server
 ````
