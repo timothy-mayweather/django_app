@@ -25,5 +25,6 @@ $ npm run dev
 after coding your application, run 
 $ npm run build
 change DJANGO_VITE_DEV_MODE = DEBUG to DJANGO_VITE_DEV_MODE = False in settings.py
+you can now remove the node_modules directory
 Finally, Deploy to your python server
 ````
