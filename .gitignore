@@ -5,3 +5,7 @@ npm-debug.log
 yarn-error.log
 .fleet
 .vscode
+#directory where vite-react assets are built
+assets/dist
+#directory where all django static assets are stored and served during production
+static

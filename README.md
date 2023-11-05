@@ -14,6 +14,11 @@ $ python -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ npm install
+--change the app security key
+$ python manage.py shell
+>>> from django.core.management.utils import get_random_secret_key
+>>> print(get_random_secret_key())
+copy and paste the key to replace the security key in settings.py
 ---during
 $ python manage.py runserver
 $ npm run dev
