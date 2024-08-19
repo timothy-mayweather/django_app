@@ -9,3 +9,5 @@ yarn-error.log
 assets/dist
 #directory where all django static assets are stored and served during production
 static
+db.sqlite3
+.DS_Store
